@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+#menusuperior{
+    background-color: #303030;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+#titulo{
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 206px;
+    margin-left: 302px;    
+}
+
+#subtitulo{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 302px;
+    padding-bottom: 149px;
+}
+
+#menuinformacional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 96px;
+    margin-bottom: 66px;
+    background-color: #F9F9F9;
+    position: absolute;
+}
+
+.number{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#primeiro{
+    margin-left: 411px;
+}
+
+#segundo{
+    margin-left: 99px;
+    margin-right: 99px;
+}
+#terceiro{
+    margin-right: 304px;
+}
+
+#secaotexto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: #F5F5F5;
+    color: #000000;
+    position: absolute;
+    margin-top: 300px;
+}
+
+#escrita{
+    position: absolute;
+    width: 735px;
+    height: 161px;
+    left: 317px;
+    top: 200px;
+
+}
+
+#titulotexto{
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#texto{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#imagem{
+    position: absolute;
+    width: 510px;
+    height: 605px;
+    left: 1100px;
+    top: 50px;
+    margin-bottom: 30px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+    margin-top: 1050px;
+}
+
+#titulo-formulario{
+    padding-top: 87px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 48px;
+    font-size: 32px;
+}
+
+input{
+    border-radius: 10px;
+    height: 72px;
+    width: 508px;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #0000004D;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+button{
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 88px;
+    margin-bottom: 87px;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #b36d1827
+}
